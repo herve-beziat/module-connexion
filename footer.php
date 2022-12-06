@@ -9,7 +9,7 @@
 </head>
 <body>
 <footer>
-    <a href="https://herve-beziat.students-laplateforme.io/">Lien Plesk</a>
+    <a href="https://github.com/herve-beziat/module-connexion/">Lien GitHub</a>
 </footer>
 </body>
 </html>
