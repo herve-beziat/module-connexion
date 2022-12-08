@@ -1,6 +1,5 @@
 <?php
-
-
+session_start();
 // $user='root';
 // $mdp='';
 // $db='moduleconnexion';
@@ -8,7 +7,7 @@
 
 $mySqli = new mysqli('localhost', 'root', '', 'moduleconnexion');
 
-// $mySqli = new mysqli('localhost', 'root', '', 'herve-beziat_moduleconnexion');
+// $mySqli = new mysqli('localhost', 'herve-beziat', 'F06!87bli', 'herve-beziat_moduleconnexion');
 
 
 if ($mySqli) {

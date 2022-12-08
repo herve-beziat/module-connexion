@@ -1,5 +1,4 @@
 <?php 
-session_start();
 
 include('connect.php') ;
 
@@ -50,6 +49,7 @@ $users = mysqli_fetch_array($query, MYSQLI_ASSOC);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="connexion.css">
+    <link rel="stylesheet" href="./footer.css">
 </head>
 <body>
 <?php include('header.php') ?>

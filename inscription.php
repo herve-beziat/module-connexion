@@ -33,7 +33,7 @@ if (isset($_POST['submit'])) {
                     }
                 }
 
-                if($loginok){
+                if($loginok==true){
                 $add ="INSERT INTO `utilisateurs` (`login`,`prenom`,`nom`,`password`) VALUES ('$login','$prenom','$nom','$password')";
                 $request = $mySqli->query($add);
             

@@ -1,3 +1,5 @@
+<!-- <?php include('./connect.php') ?> -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,11 +13,14 @@
         <header>
                 <ul id="menu">
                         <li><a href="index.php">Accueil</a></li>
-                        <li><a href="connexion.php">Se connecter</a></li>
-                        <li><a href="inscription.php">Creéer un compte</a></li>
+                                <?php if(isset($_SESSION['login'])):  ?>
                         <li><a href="profil.php">Profil</a></li>
                         <li><a href="admin.php">Page admin</a></li>
                         <li><a href="./deconnexion.php">Déconnexion</a></li>
+                                <?php else: ?>
+                        <li><a href="connexion.php">Se connecter</a></li>
+                        <li><a href="inscription.php">Creéer un compte</a></li>
+                                <?php endif ?>
                 </ul>
                 
         </header>        
